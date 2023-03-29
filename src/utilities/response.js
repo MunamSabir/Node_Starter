@@ -1,5 +1,5 @@
 const messageUtil = require("./message.js");
-const { StatusCodes, getReasonPhrase } = require("http-status-codes");
+const { StatusCodes } = require("http-status-codes");
 
 const successResponse = (res, message, data, token) => {
   const response = {

@@ -1,13 +1,13 @@
-const UserServices = require("../services/userServices");
-const jwtHelper = require("../utilities/jwt");
-const messageUtil = require("../utilities/message");
+const UserServices = require('../services/userServices');
+const jwtHelper = require('../utilities/jwt');
+const messageUtil = require('../utilities/message');
 const {
   serverErrorResponse,
   successResponse,
   notFoundResponse,
   authorizationErrorResponse,
-} = require("../utilities/response");
-const { bcryptHash, comparePassword } = require("../utilities/passwordUtils");
+} = require('../utilities/response');
+const { bcryptHash, comparePassword } = require('../utilities/passwordUtils');
 
 const CreateUser = async (req, res) => {
   try {
