@@ -3,6 +3,7 @@ https://dev.to/drsimplegraffiti/eslint-configuration-for-node-project-275l
 
 https://dev.to/studio_m_song/how-to-make-eslint-work-with-prettier-avoiding-conflicts-and-problems-57pi
 /************************************************************************************/
+
 npm i -D eslint
 npm i -D prettier
 npx eslint --init
@@ -27,6 +28,7 @@ ignorePatterns: ['src/test/*'] // <<< ignore all files in test folder
 1: npm run lint
 
 /************************************************************************************/
+
 .env
 mongouri = "mongodb+srv:/"
 jwtSecret= "fvfvs"
